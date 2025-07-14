@@ -1,3 +1,5 @@
+//SNACK 1
+
 const bikes = [
   {
     name: "Van Rysel",
@@ -32,7 +34,40 @@ for (let i = 0; i < bikes.length; i++) {
     lightest = bikes[i];
   }
 }
-console.log(lightest);
+//console.log(lightest);
 
-const testo = document.getElementById("testo");
-testo.innerHTML = `La bici più leggera è ${lightest.name + ", " + `pesa` + " " + lightest.weight} kg`
+
+
+// SNACK 2
+const teams = [
+  {
+    nome: "Juventus",
+    puntiFatti: Math.floor(Math.random() * 20) + 1,
+    falliSubiti: Math.floor(Math.random() * 20) + 1
+  },
+  {
+    nome: "Milan",
+    puntiFatti: Math.floor(Math.random() * 20) + 1,
+    falliSubiti: Math.floor(Math.random() * 20) + 1
+  },
+  {
+    nome: "Napoli",
+    puntiFatti: Math.floor(Math.random() * 20) + 1,
+    falliSubiti: Math.floor(Math.random() * 20) + 1
+  },
+  {
+    nome: "Atletico Nacional",
+    puntiFatti: Math.floor(Math.random() * 20) + 1,
+    falliSubiti: Math.floor(Math.random() * 20) + 1
+  },
+  {
+    nome: "Deportivo Cali",
+    puntiFatti: Math.floor(Math.random() * 20) + 1,
+    falliSubiti: Math.floor(Math.random() * 20) + 1
+  },
+  {
+    nome: "Junior",
+    puntiFatti: Math.floor(Math.random() * 20) + 1,
+    falliSubiti: Math.floor(Math.random() * 20) + 1
+  },
+]
