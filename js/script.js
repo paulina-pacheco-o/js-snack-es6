@@ -71,3 +71,17 @@ const teams = [
     falliSubiti: Math.floor(Math.random() * 20) + 1
   },
 ]
+
+const newTeams = [];
+for (let i = 0; i < teams.length; i++) {
+  const team = teams[i];
+
+  let squadra = {
+    nome: team.nome,
+    falliSubiti: team.falliSubiti
+  }
+
+  newTeams.push(squadra);
+}
+
+console.log(newTeams)
