@@ -1,26 +1,35 @@
-const bici = [
+const bikes = [
   {
-    nome: "Van Rysel"
-    peso: 10, 6 
+    name: "Van Rysel",
+    weight: 10.6
   },
   {
-    nome: "Triban"
-    peso: 11, 25 
+    name: "Triban",
+    weight: 11.25
   },
   {
-    nome: "Sava"
-    peso: 8, 7
+    name: "Sava",
+    weight: 8.7
   },
   {
-    nome: "Cervel"
-    peso: 8, 4
+    name: "Cervel",
+    weight: 8.4
   },
   {
-    nome: "Pinarello"
-    peso: 9, 42
+    name: "Pinarello",
+    weight: 9.42
   },
   {
-    nome: "Ridley"
-    peso: 8, 0
+    name: "Ridley",
+    weight: 8.0
   },
 ]
+
+
+let lightest = bikes[0];
+for (let i = 0; i < bikes.length; i++) {
+  if (bikes[i].weight < lightest.weight) {
+    lightest = bikes[i];
+  }
+}
+console.log(lightest);
