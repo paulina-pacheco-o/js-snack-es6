@@ -33,3 +33,6 @@ for (let i = 0; i < bikes.length; i++) {
   }
 }
 console.log(lightest);
+
+const testo = document.getElementById("testo");
+testo.innerHTML = `La bici più leggera è ${lightest.name + ", " + `pesa` + " " + lightest.weight} kg`
